@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Magic Salon</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+header {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid #1b6ec2;
+  padding-bottom: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  background-image: url('../assets/images/magic-salon-interior\ .jpeg'); /* Replace with actual salon image URL or your own */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #a6b6ec;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8c9ce0;
+}
+
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">The Magic Salon</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h1>The Magic Salon</h1>
+      <p>Classic beauty with a modern touch.</p>
+      <a href="#" class="btn">View Salon Menu</a>
+    </div>
+  </section>
+</body>
+</html>
